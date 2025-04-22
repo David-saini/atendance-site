@@ -3,6 +3,7 @@
 
 <head>
     <title>Attendance Summary</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <style>
         table {
             border-collapse: collapse;
@@ -19,8 +20,12 @@
 
 <body>
 
-    <h2>Attendance Summary</h2>
-    <div id="summary"></div>
+    <section>
+        <div class="container">
+            <h2>Attendance Summary</h2>
+            <div id="summary"></div>
+        </div>
+    </section>
 
     <script>
         const data = JSON.parse(localStorage.getItem("attendanceData"));
